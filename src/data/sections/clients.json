@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "lightImage": "/img/clients/brands/gems-school.png",
+        "darkImage": "/img/clients/brands/gems-school.png",
+        "url": "https://www.gems.edu.np"
+    },
+    {
+        "id": 2,
+        "lightImage": "/img/clients/brands/lfes-logo.png",
+        "darkImage": "/img/clients/brands/lfes-logo.png",
+        "url": "https://www.lfes.edu.np"
+    },
+    {
+        "id": 3,
+        "lightImage": "/img/clients/brands/Kabeli-Logo.png",
+        "darkImage": "/img/clients/brands/Kabeli-Logo.png",
+        "url": "https://www.kabelihydro.com"
+    },
+    {
+        "id": 4,
+        "lightImage": "/img/clients/brands/avya.webp",
+        "darkImage": "/img/clients/brands/avya.webp",
+        "url": "https://avya.club/"
+    },
+    {
+        "id": 5,
+        "lightImage": "/img/clients/brands/thunderbolts-logo.png",
+        "darkImage": "/img/clients/brands/thunderbolts-logo.png",
+        "url": "https://thunderbolts.com.np/"
+    },
+    {
+        "id": 6,
+        "lightImage": "/img/clients/brands/symbolic-logo-red.png",
+        "darkImage": "/img/clients/brands/red-logo.png",
+        "url": "https://1or8.com.np/"
+    }
+]

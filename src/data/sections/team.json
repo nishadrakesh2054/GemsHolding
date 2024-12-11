@@ -1,0 +1,40 @@
+{
+    "teams": [
+        {
+            "id": 1,
+            "image": "/img/team/chairman.jpg",
+            "title": "Mr. Rajesh Khadka",
+            "sub": "Founder Chairman"
+        },
+        {
+            "id": 3,
+            "image": "/img/team/placeholder-image.png",
+            "title": "Ms. Uma Khadka",
+            "sub": "Co-Founder"
+        },
+        {
+            "id": 4,
+            "image": "/img/team/barunsir.jpg",
+            "title": "Mr. Barun Khadka",
+            "sub": "Executive Director"
+        },
+        {
+            "id": 2,
+            "image": "/img/team/pujankhadka.jpg",
+            "title": "Dr. Pujan Khadka",
+            "sub": "Executive Director"
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "text": "UI / UX Design",
+            "value": "90%"
+        },
+        {
+            "id": 2,
+            "text": "Apps Development",
+            "value": "80%"
+        }
+    ]
+}

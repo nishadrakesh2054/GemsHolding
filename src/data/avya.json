@@ -1,0 +1,72 @@
+{
+    "id": 1,
+    "title": {
+        "small": "Your first step towards positive change.",
+        "big": "Avya Club"
+    },
+    "clientURLLink": "#",
+    "projectHeaderImage": "/img/portfolio/avya.jpg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": " 061-590648",
+    "date": "2022 AD",
+    "categories": [
+        {
+            "id": 1,
+            "name": "FITNESS",
+            "link": "#"
+        },
+        {
+            "id": 2,
+            "name": "GYM",
+            "link": "#"
+        }
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Minimal",
+            "link": "#"
+        },
+        {
+            "id": 2,
+            "name": "Modern",
+            "link": "#"
+        },
+        {
+            "id": 3,
+            "name": "Design",
+            "link": "#"
+        }
+    ],
+    "intro": {
+        "content": "The vision to establish a total health and well-being centre was conceived by the founders of Avya Club in 2018. Four years later in 2022, this vision, much larger than when it was first envisioned, has turned into a reality through a plethora of research on how value could be added to the lives of the people around us.",
+        "spmList": [
+            {
+                "id": 1,
+                "name": "Club House"
+            },
+            {
+                "id": 2,
+                "name": "Gym"
+            },
+            {
+                "id": 31,
+                "name": "Well-being and Nutrition"
+            },
+            {
+                "id": 4,
+                "name": "Post Trek Relaxation"
+            }
+        ]
+    },
+    "gallery": [
+        "/img/portfolio/project2/1.jpg",
+        "/img/portfolio/project2/2.jpg",
+        "/img/portfolio/project2/3.jpg",
+        "/img/portfolio/project2/5.jpg",
+        "/img/portfolio/project2/7.jpg"
+    ],
+    "description": {
+        "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+    }
+}

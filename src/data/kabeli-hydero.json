@@ -1,0 +1,75 @@
+{
+	"id": 1,
+	"title": {
+		"small": "Average Annual Energy after Outage of 135.84 GWh",
+		"big": "KABELI HYDROPOWER COMPANY LIMITED"
+	},
+	"clientURLLink": "#",
+	"projectHeaderImage": "/img/portfolio/kabeli.jpg",
+	"videoLink": "https://vimeo.com/127203262",
+	"clientURLName": "21.93 MW",
+	"date": "297.83 m",
+	"categories": [
+		{
+			"id": 1,
+			"name": "ENERGY",
+			"link": "#"
+		},
+		{
+			"id": 2,
+			"name": "HYDRO POWER",
+			"link": "#"
+		}
+	],
+	"tags": [
+		{
+			"id": 1,
+			"name": "Minimal",
+			"link": "#"
+		},
+		{
+			"id": 2,
+			"name": "Modern",
+			"link": "#"
+		},
+		{
+			"id": 3,
+			"name": "Design",
+			"link": "#"
+		}
+	],
+	"intro": {
+		"content": "With an impressive installed capacity of 21.93 Megawatts, Kabeli Hydropower Company Limited plays a pivotal role in meeting the growing demand for electricity in the region. The project symbolizes a harmonious blend of environmental consciousness and technological innovation, making it a beacon of sustainable energy practices.",	"spmList": [
+			{
+				"id": 1,
+				"name": "Name of River: Kabeli Khola"
+			},
+			{
+				"id": 2,
+				"name": "Nearest Town: phidim"
+			},
+			{
+				"id": 31,
+				"name": "Gross Head: 311.0m"
+			},
+			{
+				"id": 4,
+				"name": "Net rated Head: 297.83m"
+			},
+            {
+                "id":5,
+                "name":"Installed Capacity: 21.93"
+            }
+		]
+	},
+	"gallery": [
+		"/img/portfolio/project2/1.jpg",
+		"/img/portfolio/project2/2.jpg",
+		"/img/portfolio/project2/3.jpg",
+		"/img/portfolio/project2/5.jpg",
+		"/img/portfolio/project2/7.jpg"
+	],
+	"description": {
+		"content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+	}
+}

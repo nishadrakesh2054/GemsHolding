@@ -1,0 +1,72 @@
+{
+    "id": 1,
+    "title": {
+        "small": "Empowering Minds, Shaping Futures",
+        "big": "Little Flower English School"
+    },
+    "clientURLLink": "#",
+    "projectHeaderImage": "/img/portfolio/lfes.jpg",
+    "videoLink": "https://vimeo.com/127203262",
+    "clientURLName": "+977-023 530172",
+    "date": "2038 B.S",
+    "categories": [
+        {
+            "id": 1,
+            "name": "EDUCATION",
+            "link": "#"
+        },
+        {
+            "id": 2,
+            "name": "Innovation",
+            "link": "#"
+        }
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Minimal",
+            "link": "#"
+        },
+        {
+            "id": 2,
+            "name": "Modern",
+            "link": "#"
+        },
+        {
+            "id": 3,
+            "name": "Design",
+            "link": "#"
+        }
+    ],
+    "intro": {
+        "content": "Our vision is to become a leading Educational Institution in the country in both Academic and Extra Curricular activities, ultimately, offering both graduate and post graduate courses.",
+        "spmList": [
+            {
+                "id": 1,
+                "name": "Educational Excellence"
+            },
+            {
+                "id": 2,
+                "name": "Future Leaders"
+            },
+            {
+                "id": 31,
+                "name": "Knowledge Empowerment"
+            },
+            {
+                "id": 4,
+                "name": "Student Success"
+            }
+        ]
+    },
+    "gallery": [
+        "/img/portfolio/project2/1.jpg",
+        "/img/portfolio/project2/2.jpg",
+        "/img/portfolio/project2/3.jpg",
+        "/img/portfolio/project2/5.jpg",
+        "/img/portfolio/project2/7.jpg"
+    ],
+    "description": {
+        "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+    }
+}
