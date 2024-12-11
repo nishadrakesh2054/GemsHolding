@@ -60,43 +60,6 @@ const Navbar = ({ lr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
-              <span
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Home
-              </span>
-              <div className="dropdown-menu">
-                <a className="dropdown-item" href={`/homepage/home1-light`}>
-                  Main Home
-                </a>
-                <a className="dropdown-item" href={`/homepage/home2-light`}>
-                  Creative Agency
-                </a>
-                <a className="dropdown-item" href={`/homepage/home5-light`}>
-                  Digital Agency
-                </a>
-                <a className="dropdown-item" href={`/homepage/home4-light`}>
-                  Business One Page
-                </a>
-                <a className="dropdown-item" href={`/homepage/home3-light`}>
-                  Corporate Business
-                </a>
-                <a className="dropdown-item" href={`/homepage/home6-light`}>
-                  Modern Agency
-                </a>
-                <a className="dropdown-item" href={`/homepage/home7-light`}>
-                  Freelancer
-                </a>
-                <a className="dropdown-item" href={`/homepage/home8-light`}>
-                  Architecture
-                </a>
-              </div>
-            </li> */}
             <li className="nav-item">
               <a className="nav-link" href={`/`}>
                 HOME
@@ -112,77 +75,7 @@ const Navbar = ({ lr, theme }) => {
                 IMPACT STORIES
               </a>
             </li>
-            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
-              <span
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                WORKS
-              </span>
-              <div className="dropdown-menu">
-                <a className="dropdown-item" href={`/showcase/showcase-light`}>
-                  Showcase Parallax
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/showcase4/showcase4-light`}
-                >
-                  Showcase Carousel
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/showcase3/showcase3-light`}
-                >
-                  Showcase Circle
-                </a>
-                <a className="dropdown-item" href={`/works/works-light`}>
-                  Portfolio Masonry
-                </a>
-                <a className="dropdown-item" href={`/works2/works2-light`}>
-                  Portfolio Filtering
-                </a>
-                <a className="dropdown-item" href={`/works3/works3-light`}>
-                  Portfolio Gallery
-                </a>
-              </div>
-            </li> */}
-            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
-              <span
-                className="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                role="button"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Blog
-              </span>
-              <div className="dropdown-menu">
-                <a className="dropdown-item" href={`/blog/blog-light`}>
-                  Blog Standerd
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/blog-list/blog-list-light`}
-                >
-                  Blog List
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/blog-grid/blog-grid-light`}
-                >
-                  Blog Grid
-                </a>
-                <a
-                  className="dropdown-item"
-                  href={`/blog-details/blog-details-light`}
-                >
-                  Blog Details
-                </a>
-              </div>
-            </li> */}
+
             <li className="nav-item">
               <a href={`/contact`} className="nav-link">
                 CONTACT

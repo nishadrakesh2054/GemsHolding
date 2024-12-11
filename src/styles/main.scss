@@ -214,3 +214,26 @@ body.hideX .pace {
     background: #ff4b4b;
   }
 }
+
+
+
+
+// rakesh code
+.swiper-slide {
+    position: relative;
+  }
+  
+  .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  .caption {
+    position: relative;
+    z-index: 1;
+  }
+  

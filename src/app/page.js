@@ -1,9 +1,7 @@
 import Script from "next/script";
-
 //= Page components
 import generateStylesheetObject from "@/common/generateStylesheetsObject";
 import Cursor from "@/components/Common/Cursor";
-
 import Clients from "@/components/Clients/Clients2";
 import Footer from "@/components/Common/Footer";
 import LoadingScreen from "@/components/Common/Loader";

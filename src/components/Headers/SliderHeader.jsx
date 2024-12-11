@@ -10,27 +10,32 @@ import fadeWhenScroll from "@/common/fadeWhenScroll";
 import intro1Data from "@/data/intro1.json";
 
 const swiperOptions = {
-  modules: [Parallax, Navigation, Pagination],
-  speed: 1000,
-  navigation: {
-    prevEl: ".swiper-button-prev",
-    nextEl: ".swiper-button-next",
-  },
-  parallax: true,
-  pagination: {
-    type: "fraction",
-    clickable: true,
-    el: ".swiper-pagination",
-  },
-  onSwiper: (swiper) => {
-    for (var i = 0; i < swiper.slides.length; i++) {
-      swiper.slides[i].childNodes[0].setAttribute(
-        "data-swiper-parallax",
-        0.75 * swiper.width
-      );
-    }
-  },
-};
+    modules: [Parallax, Navigation, Pagination],
+    speed: 1000,
+    loop:true,
+    navigation: {
+        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next",
+    },
+    parallax: true,
+    pagination: {
+        type: "fraction",
+        clickable: true,
+        el: ".swiper-pagination",
+    },
+    autoplay: {
+        delay: 2000, 
+        disableOnInteraction: false, 
+    },
+    onSwiper: (swiper) => {
+        for (var i = 0; i < swiper.slides.length; i++) {
+        swiper.slides[i].childNodes[0].setAttribute(
+            "data-swiper-parallax",
+            0.75 * swiper.width
+        );
+        }
+    },
+    };
 
 function SliderHeader() {
   const fixedSlider = useRef();
@@ -49,10 +54,7 @@ function SliderHeader() {
   }, []);
 
   return (
-    <header
-      className="slider slider-prlx fixed-slider text-center"
-      ref={fixedSlider}
-    >
+    <header className="slider slider-prlx fixed-slider text-center" ref={fixedSlider}>
       <div className="swiper-container parallax-slider">
         <Swiper {...swiperOptions} className="swiper-wrapper">
           {intro1Data.map((slide) => (
@@ -60,7 +62,10 @@ function SliderHeader() {
               <div
                 className="bg-img valign"
                 style={{
-                  backgroundImage: `url(${slide.image})`,
+                  backgroundImage: `url(${slide.image})`, 
+                  backgroundSize: "cover", 
+                  backgroundPosition: "center", 
+                  height: "100vh", 
                 }}
                 data-overlay-dark="6"
               >
@@ -69,13 +74,10 @@ function SliderHeader() {
                     <div className="col-lg-8 col-md-10">
                       <div className="caption center mt-30">
                         <h1 className="color-font fw-600 text-uppercase">
-                          Unlocking <span className="fw-100 ">Brilliance</span>,
+                          Unlocking <span className="fw-100">Brilliance</span>,
                           <span className="fw-100">Shaping</span> Futures.
                         </h1>
                         {slide.content && <p>{slide.content}</p>}
-                        {/* <a href="#" className="butn bord curve mt-30">
-                          <span>Look More</span>
-                        </a> */}
                       </div>
                     </div>
                   </div>
@@ -84,6 +86,7 @@ function SliderHeader() {
             </SwiperSlide>
           ))}
         </Swiper>
+
         <div className="setone setwo">
           <div className="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
             <i className="fas fa-chevron-right"></i>
@@ -93,21 +96,6 @@ function SliderHeader() {
           </div>
         </div>
         <div className="swiper-pagination top botm"></div>
-
-        {/* <div className="social-icon">
-          <a href="#">
-            <i className="fab fa-facebook-f"></i>
-          </a>
-          <a href="#">
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i className="fab fa-behance"></i>
-          </a>
-          <a href="#">
-            <i className="fab fa-pinterest-p"></i>
-          </a>
-        </div> */}
       </div>
     </header>
   );
